@@ -9,6 +9,8 @@ This tool is designed to automatically download and merge remote `appfilter.xml`
 
 This is particularly useful for maintaining and extending icon packs for Android launchers.
 
+Example Pull Request: #2
+
 ---
 
 ## 🛠 Features
@@ -29,8 +31,6 @@ This is particularly useful for maintaining and extending icon packs for Android
    - Are not already in the file
    - Are not blacklisted
 5. Commits the update to a branch (`crowdsource`) and opens a PR to `main`
-
-
 
 ## 📁 Directory Structure
 Directory layout based on the current configuration:
