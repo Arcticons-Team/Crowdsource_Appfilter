@@ -18,7 +18,7 @@ env:
 
 jobs:
   check-pr:
-    if: ${{ github.repository == env.REPOSITORY }}
+    if: ${{ github.repository == vars.REPOSITORY }}
     runs-on: ubuntu-latest
     outputs:
       existsnot: ${{ steps.check.outputs.existsnot }}
