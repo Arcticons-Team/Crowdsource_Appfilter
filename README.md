@@ -9,7 +9,7 @@ This tool is designed to automatically download and merge remote `appfilter.xml`
 
 This is particularly useful for maintaining and extending icon packs for Android launchers.
 
-Example Pull Request: #2
+Example Pull Request: [#2](https://github.com/Arcticons-Team/Crowdsource_Appfilter/pull/2)
 
 ---
 
