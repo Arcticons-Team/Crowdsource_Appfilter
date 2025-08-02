@@ -14,11 +14,9 @@ env:
   PR_BODY: Crowdsourced update of `appfilter.xml` via GitHub Action, applying blacklist filters.            # The body of the pull request, change if necessary
   OWNER: Arcticons-Team                                            # The owner of the repository, change if necessary
   BRANCH: crowdsource                                              # This branch will be created if it does not exist
-  REPOSITORY: Arcticons-Team/Crowdsource_Appfilter                   # The repository where the action will run, change if necessary
 
 jobs:
   check-pr:
-    if: ${{ github.repository == vars.REPOSITORY }}
     runs-on: ubuntu-latest
     outputs:
       existsnot: ${{ steps.check.outputs.existsnot }}
